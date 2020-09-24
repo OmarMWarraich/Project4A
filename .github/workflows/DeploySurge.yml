@@ -39,4 +39,4 @@ jobs:
     
     # Deploy Surge
     - name: Deploy React App to Surge
-      run: surge ./build redqueen-omw.surge.sh --token ${{ SURGE_TOKEN}}
+      run: surge ./build redqueen-omw.surge.sh --token ${{ secrets.SURGE_TOKEN}}
